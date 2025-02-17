@@ -1,7 +1,15 @@
-# k8s相关镜像
+# calico相关镜像
+--platform=amd64 calico/typha:v3.27.0
+--platform=amd64 calico/kube-controllers:v3.27.0
+--platform=amd64 calico/cni:v3.27.0
 --platform=amd64 calico/node-driver-registrar:v3.27.0
 --platform=amd64 calico/csi:v3.27.0
+--platform=amd64 calico/pod2daemon-flexvol:v3.27.0
+--platform=amd64 calico/node:v3.27.0
 --platform=amd64 calico/apiserver:v3.27.0
+
+
+
 
 
 nginx
