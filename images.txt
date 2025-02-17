@@ -7,6 +7,13 @@
 --platform=amd64 calico/pod2daemon-flexvol:v3.27.0
 --platform=amd64 calico/node:v3.27.0
 --platform=amd64 calico/apiserver:v3.27.0
+--platform=amd64 registry.k8s.io/kube-apiserver:v1.29.0
+--platform=amd64 registry.k8s.io/kube-controller-manager:v1.29.0
+--platform=amd64 registry.k8s.io/kube-scheduler:v1.29.0
+--platform=amd64 registry.k8s.io/kube-proxy:v1.29.0
+--platform=amd64 registry.k8s.io/coredns/coredns:v1.11.1
+--platform=amd64 registry.k8s.io/pause:3.9
+--platform=amd64 registry.k8s.io/etcd:3.5.10-0
 
 
 
