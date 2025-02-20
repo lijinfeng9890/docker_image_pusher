@@ -1,2 +1,5 @@
-ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
-ghcr.io/flannel-io/flannel:v0.26.4
+kubernetesui/dashboard-api:1.10.2
+kubernetesui/dashboard-auth:1.2.3
+kong:3.8
+kubernetesui/dashboard-metrics-scraper:1.2.2
+kubernetesui/dashboard-web:1.6.1
